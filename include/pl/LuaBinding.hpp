@@ -6,9 +6,9 @@
 #include <string_view>
 
 extern "C" {
-    #include "pl/lua.h"
-    #include "pl/lauxlib.h"
-    #include "pl/lualib.h"
+    #include "lua.h"
+    #include "lauxlib.h"
+    #include "lualib.h"
 }
 
 #include <pl/Mod.hpp>          //[span_4](start_span)[span_4](end_span)
